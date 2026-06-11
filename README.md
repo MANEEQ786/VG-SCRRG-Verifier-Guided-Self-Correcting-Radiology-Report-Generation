@@ -50,7 +50,9 @@ VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation/
 |-- README.md
 |-- LICENSE
 |-- CITATION.cff
+|-- .zenodo.json
 |-- requirements.txt
+|-- environment.yml
 |
 |-- notebooks/
 |   |-- 01_candidate_generation_r2gen_baseline.ipynb
@@ -131,6 +133,13 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Alternatively, create a Conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate vg-scrrg
 ```
 
 Launch Jupyter:
@@ -236,6 +245,7 @@ This repository currently provides notebook-based reproducibility. For best resu
 5. Do not commit dataset files, generated outputs, or checkpoints.
 6. Record package versions and GPU details.
 7. Save outputs locally under the `outputs/` folder.
+8. Regenerate an exact package freeze from the experiment runtime when preparing a final archival release.
 
 ---
 

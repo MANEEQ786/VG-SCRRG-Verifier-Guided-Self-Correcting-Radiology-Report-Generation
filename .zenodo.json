@@ -1,0 +1,35 @@
+{
+  "title": "VG-SCRRG: Verifier-Guided Self-Correcting Radiology Report Generation",
+  "upload_type": "software",
+  "description": "Source code, notebook-based implementation, and reproducibility guidance for VG-SCRRG, a verifier-guided self-correcting framework for clinically faithful chest X-ray radiology report generation.",
+  "creators": [
+    {
+      "name": "Tubaishat, Abdalla"
+    },
+    {
+      "name": "Tariq, Umair"
+    },
+    {
+      "name": "Tawil, Abdel-Rahman"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "radiology report generation",
+    "chest X-ray",
+    "medical AI",
+    "clinical faithfulness",
+    "visual grounding",
+    "hallucination mitigation",
+    "MIMIC-CXR",
+    "VG-SCRRG"
+  ],
+  "version": "v1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MANEEQ786/VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
