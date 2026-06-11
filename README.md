@@ -160,17 +160,20 @@ The notebooks were developed in a Kaggle-style environment and contain dataset p
 
 This repository does not include clinical datasets.
 
-The experiments use datasets and resources such as:
-
-* MIMIC-CXR.
-* MIMIC-CXR-JPG.
-* IU X-Ray.
-* Chest ImaGenome.
-* MS-CXR.
-* ReXVal.
-* RadGraph / RadGraph-XL resources.
+The experiments use datasets and resources such as MIMIC-CXR, MIMIC-CXR-JPG, IU X-Ray, Chest ImaGenome, MS-CXR, ReXVal, and RadGraph / RadGraph-XL resources.
 
 Users must download datasets from their official sources and comply with all access rules, credentialing requirements, licenses, and data-use agreements.
+
+### Official Dataset Links
+
+| Resource | Version | Official link | Use in VG-SCRRG |
+| --- | --- | --- | --- |
+| MIMIC-CXR-JPG - chest radiographs with structured labels | 2.1.0 | [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.1.0/) / [DOI](https://doi.org/10.13026/jsn5-t979) | Main chest X-ray image source, official splits, image metadata, and structured labels derived from reports. |
+| Chest ImaGenome Dataset | 1.0.0 | [PhysioNet](https://physionet.org/content/chest-imagenome/1.0.0/) / [DOI](https://doi.org/10.13026/wv01-y230) | Anatomical scene graphs, object-region mappings, localized attributes, and region-consistency validation support. |
+| MS-CXR: Making the Most of Text Semantics to Improve Biomedical Vision-Language Processing | 1.1.0 | [PhysioNet](https://physionet.org/content/ms-cxr/1.1.0/) / [DOI](https://doi.org/10.13026/9g2z-jg61) | Radiologist phrase-grounding annotations for local image-text alignment and phrase-level validation. |
+| Radiology Report Expert Evaluation (ReXVal) Dataset | 1.0.0 | [PhysioNet](https://physionet.org/content/rexval-dataset/1.0.0/) / [DOI](https://doi.org/10.13026/2fp8-qr71) | Expert radiologist error annotations for evaluating report-generation quality and clinically meaningful errors. |
+
+The PhysioNet resources above require credentialed access, completion of required training, and acceptance of the relevant data-use agreement. MIMIC-CXR-JPG is derived from MIMIC-CXR; when using free-text reports or parent-project data, cite and follow the access requirements for the parent MIMIC-CXR release as well.
 
 Do not commit or upload:
 
