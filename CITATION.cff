@@ -9,7 +9,7 @@ authors:
   - family-names: "Tawil"
     given-names: "Abdel-Rahman"
 year: 2026
-repository-code: "https://github.com/MANEEQ786/vg-scrrg"
+repository-code: "https://github.com/MANEEQ786/VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation"
 license: "Apache-2.0"
 keywords:
   - radiology report generation

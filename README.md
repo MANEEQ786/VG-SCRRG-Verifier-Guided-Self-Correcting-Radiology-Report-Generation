@@ -45,7 +45,7 @@ The framework includes:
 This repository currently provides the original notebook-based implementation used to support the VG-SCRRG experiments. It does not currently include a reusable `src/` package, command-line scripts, tests, or released model checkpoints.
 
 ```text
-vg-scrrg/
+VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation/
 |
 |-- README.md
 |-- LICENSE
@@ -116,8 +116,8 @@ flowchart TD
 Clone the repository:
 
 ```bash
-git clone https://github.com/MANEEQ786/vg-scrrg.git
-cd vg-scrrg
+git clone https://github.com/MANEEQ786/VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation.git
+cd VG-SCRRG-Verifier-Guided-Self-Correcting-Radiology-Report-Generation
 ```
 
 Create a Python environment:
