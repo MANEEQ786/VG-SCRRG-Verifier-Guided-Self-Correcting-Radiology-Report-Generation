@@ -1,0 +1,55 @@
+# Restricted datasets
+data/*
+!data/README.md
+
+# Outputs
+outputs/*
+!outputs/README.md
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/README.md
+
+# Large or sensitive files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.dcm
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.csv.gz
+*.txt
+*.jsonl
+
+# Keep dependency files and notebook files
+!requirements.txt
+!notebooks/*.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Logs
+logs/
+wandb/
+mlruns/
+
+# macOS
+.DS_Store
+
+# Kaggle credentials
+kaggle.json
+.kaggle/

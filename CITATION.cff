@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "VG-SCRRG: Verifier-Guided Self-Correcting Radiology Report Generation for Clinically Accurate CXR Interpretation"
+authors:
+  - family-names: "Tubaishat"
+    given-names: "Abdalla"
+  - family-names: "Tariq"
+    given-names: "Umair"
+  - family-names: "Tawil"
+    given-names: "Abdel-Rahman"
+year: 2026
+repository-code: "https://github.com/MANEEQ786/vg-scrrg"
+license: "Apache-2.0"
+keywords:
+  - radiology report generation
+  - medical AI
+  - chest x-ray
+  - clinical faithfulness
+  - visual grounding
+  - evidence scoring
+  - hallucination mitigation
+  - MIMIC-CXR
+  - IU X-Ray
